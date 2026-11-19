@@ -1,0 +1,46 @@
+.number {
+    font-display: block;
+    padding: 10px 10px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: backgroud 0.3s;
+    display: grid;
+}
+.number:hover {
+    background-color: green;
+}
+.function {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.operator {
+    padding:10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+body {
+    margin: 10px 20px;
+    background-color:#ccc;
+}
+.pantalla {
+    width:200px;
+    border: 1px solid white;
+    text-align: right;
+    padding: 20px;
+    border-radius:10px;
+    margin: 10px 50px;
+}
+.calculadora {
+  width: 320px;                 /* Define el ancho exacto de la carcasa */
+  margin: 40px auto;            /* Centra la calculadora en la pantalla */
+  padding: 20px;                /* Espacio entre el borde y los elementos internos */
+  background-color: #1e293b;    /* Color principal de la carcasa */
+  border: 2px solid #334155;    /* Borde visible que delimita el contorno */
+  border-radius: 20px;          /* Esquinas redondeadas */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); /* Sombra para darle relieve 3D */
+}
