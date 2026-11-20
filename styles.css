@@ -1,0 +1,78 @@
+body {
+    margin: 10px 20px;
+    background-color:#ccc;
+}
+.calculadora {
+  width: 320px;                 
+  margin: 40px auto;            
+  padding: 20px;                
+  background-color: #1e293b;   
+  border: 2px solid #334155;   
+  border-radius: 20px;          
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); 
+
+  box-shadow: 
+        0 10px 0 #0f172a,                      
+        0 20px 30px rgba(0, 0, 0, 0.6),        
+        inset 0 2px 3px rgba(255, 255, 255, 0.2),
+        inset 0 -4px 6px rgba(0, 0, 0, 0.4);
+}
+.pantalla {
+    width:200px;
+    border: 1px solid white;
+    text-align: right;
+    padding: 20px;
+    border-radius:10px;
+    margin: 10px 50px;
+    margin-bottom: 20px;
+}
+#pantalla {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    text-align: right;
+    outline: none;
+    box-sizing: border-box;
+}
+.botones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.number {
+    font-display: block;
+    padding: 10px 10px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap:10px;
+}
+.number:hover {
+    background-color: green;
+}
+.function {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.function:hover {
+    background-color: gold;
+}
+.operator {
+    padding:10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.operator:hover {
+    background-color: gold
+}
