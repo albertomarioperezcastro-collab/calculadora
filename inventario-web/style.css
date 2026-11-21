@@ -2,11 +2,11 @@ body{
     background-color:silver;
 }
 #btn-inventario {
-    background-color: #1e293b;
+    background-color: whithe;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -22,13 +22,17 @@ body{
     grid-template-columns: repeat(4, 1fr);
     border-radius: 10px;
     border: 2px solid black;
+    background-clip: padding-box;
+    width: fit-content;
+    margin: 0 auto;
+
 }
     #btn-ventas {
-    background-color: #1e293b;
+    background-color: white;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -37,11 +41,11 @@ body{
     background-color: rgb(6, 90, 90);
 }
 #btn-compras {
-    background-color: #1e293b;
+    background-color: white;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -51,11 +55,11 @@ body{
 }
 
 #btn-proveedores {
-    background-color: #1e293b;
+    background-color: white;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -65,11 +69,11 @@ body{
 }
 
 #btn-clientes {
-    background-color: #1e293b;
+    background-color: white;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -79,11 +83,11 @@ body{
 }
 
 #btn-movimientos {
-    background-color: #1e293b;
+    background-color: white;
     padding: 4px;
     border-radius: 5px;
     border: 2px solid black;
-    color: aliceblue;
+    color: black;
     cursor:pointer;
     transition: 0.4s;
     margin: 4px;
@@ -168,4 +172,17 @@ body{
 }
 #btn-logout:hover{
     background-color: rgb(6, 90, 90);
+}
+.botones-ocultos{
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+    top: 100%;
+    left: 0%;
+    gap: 6px;
+    width: fit-content;
+}
+.boton-principal{
+    cursor:pointer;
 }
